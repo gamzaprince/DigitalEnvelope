@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/receiver/CreateKeyReceiver.java=UTF-8
+encoding//src/sender/CreateKeySender.java=UTF-8
+encoding//src/sender/SignWithEnvelope.java=UTF-8
+encoding//src/service/DigitSign.java=UTF-8
+encoding//src/service/KeyManage.java=UTF-8
+encoding//src/service/MyFile.java=UTF-8
+encoding//src/service/Tester.java=UTF-8
+encoding//src/window/receiver.java=UTF-8
+encoding//src/window/sender.java=UTF-8
