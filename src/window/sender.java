@@ -72,8 +72,8 @@ public class sender {
 		frame.getContentPane().add(textPane_1);
 		
 		JButton button = new JButton("키 생성하기");
-		button.setIcon(new ImageIcon("/Users/kwonheewon/Downloads/네트워크보안/Practice10/imgs/icon1.png"));
-		button.setSelectedIcon(new ImageIcon("/Users/kwonheewon/Downloads/네트워크보안/Practice10/imgs/icon1.png"));
+		button.setIcon(new ImageIcon("/Users/gamza/Downloads/네트워크보안/Practice10/imgs/icon1.png"));
+		button.setSelectedIcon(new ImageIcon("/Users/gamza/Downloads/네트워크보안/Practice10/imgs/icon1.png"));
 		button.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -117,19 +117,6 @@ public class sender {
 		            File file = jfc.getSelectedFile();
 		            fname = new StringBuilder(file.getName());
 		            textPane_1.setText(fname.toString());
-		            /*
-		            try {
-		                String tmp, str = null;
-		                BufferedReader br = new BufferedReader(new FileReader(file));
-		                while((tmp = br.readLine()) != null)
-		                {
-		                    str += tmp;
-		                }
-		                System.out.println(str);
-		            }catch(Exception e2) {
-		                e2.printStackTrace();
-		            }
-		            */
 		        }
 		        else
 		        {
@@ -146,7 +133,7 @@ public class sender {
 		frame.getContentPane().add(textPane_2);
 		
 		JButton button_2 = new JButton("전자봉투 생성하기");
-		button_2.setIcon(new ImageIcon("/Users/kwonheewon/Downloads/네트워크보안/Practice10/imgs/icon3.png"));
+		button_2.setIcon(new ImageIcon("/Users/gamza/Downloads/네트워크보안/Practice10/imgs/icon3.png"));
 		button_2.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -193,7 +180,7 @@ public class sender {
 		frame.getContentPane().add(button_2);
 		
 		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon("/Users/kwonheewon/Downloads/네트워크보안/Practice10/imgs/bob.png"));
+		lblNewLabel.setIcon(new ImageIcon("/Users/gamza/Downloads/네트워크보안/Practice10/imgs/bob.png"));
 		lblNewLabel.setBounds(34, 1, 137, 143);
 		frame.getContentPane().add(lblNewLabel);
 	}

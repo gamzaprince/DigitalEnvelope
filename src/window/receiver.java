@@ -105,7 +105,7 @@ public class receiver {
 		frame.getContentPane().add(button_1);
 		
 		JButton button = new JButton("키 생성하기");
-		button.setIcon(new ImageIcon("/Users/kwonheewon/Downloads/네트워크보안/Practice10/imgs/icon1.png"));
+		button.setIcon(new ImageIcon("/Users/gamza/Downloads/네트워크보안/Practice10/imgs/icon1.png"));
 		button.setBounds(307, 145, 108, 29);
 		frame.getContentPane().add(button);
 		
@@ -113,7 +113,7 @@ public class receiver {
 		frame.getContentPane().add(textPane_1);
 		
 		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon("/Users/kwonheewon/Downloads/네트워크보안/Practice10/imgs/alice.png"));
+		lblNewLabel.setIcon(new ImageIcon("/Users/gamza/Downloads/네트워크보안/Practice10/imgs/alice.png"));
 		lblNewLabel.setBounds(38, 6, 126, 134);
 		frame.getContentPane().add(lblNewLabel);
 		button.addMouseListener(new MouseAdapter() {
